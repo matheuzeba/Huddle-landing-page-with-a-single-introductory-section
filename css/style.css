@@ -75,4 +75,11 @@ body .page main .main-wrapper .main-text button{
     width: 100%;
     max-width: 70%;
     box-shadow: 0 5px 3px 0px rgb(0 0 0 / 20%);
+    transition: ease all     0.5s;
+}
+
+body .page main .main-wrapper .main-text button:hover{
+    cursor: pointer;
+    letter-spacing: 0.5rem;
+    background: #bdbdbd;
 }
