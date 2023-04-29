@@ -84,6 +84,26 @@ body .page main .main-wrapper .main-text button:hover{
     background: #bdbdbd;
 }
 
+/* FOOTER */
+
+body .page footer {
+    display: flex;
+    justify-content: center;
+}
+
+body .page footer ul {
+    display: flex;
+    max-width: 10rem;
+    gap: 2rem;  
+}
+
+body .page footer ul li{
+    display: flex;
+    align-items: center;
+}
+
 svg {
+    display: block;
+    width: 100%;
     fill: white;
 }
