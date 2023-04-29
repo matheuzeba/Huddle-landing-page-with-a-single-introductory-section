@@ -43,8 +43,36 @@ body .page main .main-wrapper .main-text{
     text-align: center;
 }
 
+/* .main-text h1 */
 body .page main .main-wrapper .main-text h1{
     font-family: 'Poppins', sans-serif;
-    color: var(--White);
     font-size: 2.5rem;    
+    
+    max-width: 28rem;
+    margin: 0 auto;
+    
+    color: var(--White);
+}
+
+/* .main-text p */
+body .page main .main-wrapper .main-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--White);
+    font-size: 1.5rem;    
+
+    max-width: 31ch;
+    margin: 0 auto;
+}
+
+/* .main-text button */
+body .page main .main-wrapper .main-text button{
+    font-family: 'Poppins', sans-serif;
+    color: var(--Violet);
+    font-size: 1em;
+
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 100%;
+    max-width: 70%;
+    box-shadow: 0 5px 3px 0px rgb(0 0 0 / 20%);
 }
