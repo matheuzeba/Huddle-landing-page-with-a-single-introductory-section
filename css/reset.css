@@ -16,7 +16,8 @@
     /* adicionando quebra de linha */
     overflow-wrap: break-word;
 
-
+    /* remover estilo em lista */
+    list-style: none;
 }
 
 

@@ -83,3 +83,7 @@ body .page main .main-wrapper .main-text button:hover{
     letter-spacing: 0.5rem;
     background: #bdbdbd;
 }
+
+svg {
+    fill: white;
+}
