@@ -39,6 +39,7 @@ body .page main .main-wrapper .main-text{
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    margin-bottom: 2rem;
 
     text-align: center;
 }
@@ -86,24 +87,4 @@ body .page main .main-wrapper .main-text button:hover{
 
 /* FOOTER */
 
-body .page footer {
-    display: flex;
-    justify-content: center;
-}
 
-body .page footer ul {
-    display: flex;
-    max-width: 10rem;
-    gap: 2rem;  
-}
-
-body .page footer ul li{
-    display: flex;
-    align-items: center;
-}
-
-svg {
-    display: block;
-    width: 100%;
-    fill: white;
-}
