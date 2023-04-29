@@ -3,3 +3,7 @@
     font-family: 'Poppins', sans-serif;
 */
 
+body {
+    background: url(../images/bg-mobile.svg) var(--Violet);
+    background-repeat: no-repeat;
+}
