@@ -14,18 +14,27 @@ body .page {
     padding: 3rem;
 }
 
-
+/* HEADER */
 body .page header {
     margin-bottom: 5rem;
 }
+
 /* header img */
 body .page header img {
     max-width: 50%;
 }
+
+/* MAIN */
 
 /* .main-wrapper */
 body .page main .main-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5rem;
+}
+
+/* .main-text */
+body .page main .main-wrapper .main-text{
+    text-align: center;
 }
