@@ -6,4 +6,14 @@
 body {
     background: url(../images/bg-mobile.svg) var(--Violet);
     background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .page */
+body .page {
+    padding: 6rem;
+}
+
+body .page header img {
+    max-width: 24rem;
 }
