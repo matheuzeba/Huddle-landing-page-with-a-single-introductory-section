@@ -1,0 +1,41 @@
+* {
+    /* desabilitar padding */
+    padding: 0;
+    /* desabilitar margin */
+    margin: 0;
+    /* desabilitar border */
+    border: none;
+
+    /* mudar box-sizing para border-box */
+    /* o border-box facilita o calculo geral de largura e altura do elemento*/
+    box-sizing: border-box;
+
+    /* convertendo a fonte para rem */
+    font-size: 1.6rem;
+
+    /* adicionando quebra de linha */
+    overflow-wrap: break-word;
+}
+
+
+html, body {
+    /* convertendo font para 10px */
+    /* assim fica mais facil de calcular o rem */
+    font-size: 62.5%;
+
+    /* adicionando altura ao html e o body */
+    /* ajuda a não ultilizar o vh e o vw */
+    height: 100%;
+}
+
+p {
+    /* adicionando line-height de 1.5 */
+    /* isso é bom para pessoas com dislexia */
+    line-height: 1.5;
+}
+
+img {
+    /* essas configurações ajudam na responsividade de imagens :) */
+    display: block;
+    width: 100%;
+}
