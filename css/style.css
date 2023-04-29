@@ -36,5 +36,15 @@ body .page main .main-wrapper {
 
 /* .main-text */
 body .page main .main-wrapper .main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
     text-align: center;
+}
+
+body .page main .main-wrapper .main-text h1{
+    font-family: 'Poppins', sans-serif;
+    color: var(--White);
+    font-size: 2.5rem;    
 }
