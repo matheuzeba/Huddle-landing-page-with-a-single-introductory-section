@@ -11,10 +11,21 @@ body {
 
 /* .page */
 body .page {
-    padding: 6rem;
+    padding: 3rem;
 }
 
+
+body .page header {
+    margin-bottom: 5rem;
+}
 /* header img */
 body .page header img {
-    max-width: 24rem;
+    max-width: 50%;
+}
+
+/* .main-wrapper */
+body .page main .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
