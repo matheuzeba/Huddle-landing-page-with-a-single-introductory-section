@@ -39,7 +39,7 @@ Hovers
 
 ### Links
 
-- Site: [Clque aqui para acessar o site](https://noneofurbuzz.github.io/interactive-rating-component/)
+- Site: [Clique aqui para acessar o site](https://matheuzeba.github.io/Huddle-landing-page-with-a-single-introductory-section/)
 
 ## Meu processo
 
