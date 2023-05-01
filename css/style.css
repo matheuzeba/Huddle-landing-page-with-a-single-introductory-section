@@ -92,4 +92,6 @@ body .page footer {
     justify-content: center;
 }
 
-
+.social-icons {
+    color: var(--White);
+}
