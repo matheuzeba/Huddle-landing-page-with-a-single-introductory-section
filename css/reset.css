@@ -18,6 +18,8 @@
 
     /* remover estilo em lista */
     list-style: none;
+
+    text-decoration: none;
 }
 
 
