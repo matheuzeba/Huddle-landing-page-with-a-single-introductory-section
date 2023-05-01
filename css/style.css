@@ -87,4 +87,9 @@ body .page main .main-wrapper .main-text button:hover{
 
 /* FOOTER */
 
+body .page footer {
+    display: flex;
+    justify-content: center;
+}
+
 
