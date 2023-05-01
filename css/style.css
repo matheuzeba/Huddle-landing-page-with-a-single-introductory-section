@@ -6,7 +6,7 @@
 body {
     background: url(../images/bg-mobile.svg) var(--Violet);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 /* .page */
@@ -111,7 +111,7 @@ a {
 }
 
 .social-icons {
-    display: flex;
+    display: flex !important;
     align-items: center;
     height: 3rem;
 
