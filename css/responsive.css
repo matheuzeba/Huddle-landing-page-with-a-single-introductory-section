@@ -1,12 +1,14 @@
-@media (min-width: 50em) {
+
+/* tablet */
+@media (min-width: 48em) {
     body {
         background: url(../images/bg-desktop.svg) var(--Violet);
         background-repeat: no-repeat;
         background-size: cover;
     }
     
-    body .page {
-        justify-content: space-around;
+    body .page header img {
+        max-width: 25%;
     }
     
     body .page main .main-wrapper {
@@ -20,20 +22,71 @@
     }
 
     body .page main .main-wrapper .main-text h1{
-        font-size: 4rem;
-        max-width: 18ch;
+        font-size: 2rem;
+        max-width: 28ch;
         margin: 0;
     }
 
     body .page main .main-wrapper .main-text p{
-        font-size: 2.6rem;
-        max-width: 33ch;
+        font-size: 1.5rem;
+        max-width: 75ch;
         margin: 0;
+    }
+    
+
+    body .page main .main-wrapper .main-text button {
+        font-size: 1em;
+        padding: 1rem;
+    }
+
+    body .page footer {
+        margin-top: 5rem;
+        padding-bottom: 2rem;
+        justify-content: end;
+    }
+}
+
+/* 800 */
+@media (min-width: 50em) {
+    body .page {
+        justify-content: space-between;
+    }
+}
+
+
+/* 1150 */
+
+@media (min-width: 70em) {
+    body .page main .main-wrapper .main-text h1 {
+        font-size: 3rem;
+        max-width: 22ch;
+    }
+
+    body .page main .main-wrapper .main-text p {
+        font-size: 2rem;
+        max-width: 75ch;
+    }
+
+    body .page main .main-wrapper .main-text button {
+        font-size: 1.5em;
+        padding: 1rem;
+    }
+}
+
+/* 1440 */
+@media (min-width: 90em) {
+    body .page main .main-wrapper .main-text h1 {
+        font-size: 4rem;
+        max-width: 22ch;
+    }
+
+    body .page main .main-wrapper .main-text p {
+        font-size: 2.5rem;
+        max-width: 41ch;
     }
 
     body .page main .main-wrapper .main-text button {
         font-size: 1.5em;
         padding: 2rem;
     }
-
 }
