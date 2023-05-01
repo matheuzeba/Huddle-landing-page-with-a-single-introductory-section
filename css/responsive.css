@@ -1,0 +1,39 @@
+@media (min-width: 50em) {
+    body {
+        background: url(../images/bg-desktop.svg) var(--Violet);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    body .page {
+        justify-content: space-around;
+    }
+    
+    body .page main .main-wrapper {
+        flex-direction: row;
+    }
+
+    body .page main .main-wrapper .main-text {
+        text-align: start;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    body .page main .main-wrapper .main-text h1{
+        font-size: 4rem;
+        max-width: 18ch;
+        margin: 0;
+    }
+
+    body .page main .main-wrapper .main-text p{
+        font-size: 2.6rem;
+        max-width: 33ch;
+        margin: 0;
+    }
+
+    body .page main .main-wrapper .main-text button {
+        font-size: 1.5em;
+        padding: 2rem;
+    }
+
+}

@@ -26,8 +26,6 @@ html, body {
     /* assim fica mais facil de calcular o rem */
     font-size: 62.5%;
 
-    /* adicionando altura ao html e o body */
-    /* ajuda a não ultilizar o vh e o vw */
     height: 100%;
 }
 
